@@ -1,0 +1,71 @@
+h1,h2{
+    color : coral;
+    background : black;
+}
+
+h4{
+    color :cornflowerblue;
+    background :cyan;
+}
+
+
+
+
+.header{
+    display : flex;
+    justify-content : space-between;
+    background-color :black;
+}
+
+.site-description{
+    display :flex;
+    justify-content :first baseline;
+    flex-direction :column;
+}
+
+.grid{
+    display : flex;
+    justify-content : space-evenly;
+    flex-wrap : wrap;
+}
+
+.grid img{
+    border : 2px solid black;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color :white;
+
+    width :310px;
+    font-family: fantasy;
+}
+
+body { 
+    background-color :whitesmoke;
+}
+
+.menu {
+    display :flex;
+    justify-content :space-between;
+    background-color :black;
+    font-size : 20px;
+    font-family : sans-serif;
+    font-weight :400;
+    color :white;
+}
+
+.footer{
+    display : flex;
+    justify-content : flex-end;
+}
+
+.footer2{
+    display : flex;
+    justify-content : flex-start;
+}
+
+p,h1,h4{
+    text-align: center;
+}
